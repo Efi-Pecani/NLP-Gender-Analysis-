@@ -1,7 +1,8 @@
 # NLP-Gender-Analysis-
 NLP comparison of genders mentioned in Wiki Pages
 
-French vs Russian Monarchies
+French vs Russian Monarchies comparison
+
 ![picrus](https://github.com/efipaka/NLP-Gender-Analysis-/blob/main/nobility_rus.jpeg)
 
 Most common names in French Monarchy:
