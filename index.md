@@ -1,19 +1,9 @@
 ## NLP-Gender-Analysis
 ### French vs Russian Monarchies comparison
 
+<center>
 <div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/main/nobility_rus.jpeg" class="img-responsive" alt=""> </div>
-
-### Most common names in French Monarchy:
-
-<div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/gh-pages/french_monarchy.png" class="img-responsive" alt=""> </div>
-
-### Most common names in Russian Monarchy:
-
-<div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/gh-pages/russian_monarchy.png" class="img-responsive" alt=""> </div>
-
-### Male/Female Precentage comparison:
-
-<div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/gh-pages/comparison_genders_monarchy.png" class="img-responsive" alt=""> </div>
+</center>
 
 ### Defining our functions
 
@@ -54,12 +44,12 @@ def analyze_text_names(url1):
 ## Scraping from a Wiki page value
 
 ### Both English Values from Wikipedia:
-
-<div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/main/wiki_value_rus.png" class="img-responsive" alt=""> </div>
 ### 1st
+<div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/main/wiki_value_rus.png" class="img-responsive" alt=""> </div>
 
-<div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/main/wiki_value_fr.png" class="img-responsive" alt=""> </div>
 ### 2nd
+<div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/main/wiki_value_fr.png" class="img-responsive" alt=""> </div>
+
 
 
 ## Analyzing with NLP
@@ -82,12 +72,12 @@ female_names=nltk.corpus.names.words('female.txt')
 male_names = nltk.corpus.names.words('male.txt')
 
 ```
-### Getting our outputs
+## Getting our outputs
 
 
 ```
 
-#_________________________
+
 
 analyze_text_names("https://en.wikipedia.org/wiki/List_of_Russian_monarchs")
 
@@ -102,7 +92,7 @@ analyze_text_names("https://en.wikipedia.org/wiki/List_of_Russian_monarchs")
 ['Alexandra', 'Alexis', 'Alta', 'Anastasia', 'Andrei', 'Anna', 'Anne', 'April', 'Canada', 'Catherine', 'Christina', 'Cookie', 'Daniel', 'Elena', 'Elizabeth', 'France', 'George', 'Glenn', 'June', 'Lucia', 'Maria', 'May', 'Maya', 'Natalia', 'Natalya', 'Olga', 'Sophia', 'Xenia']
 
 
-#_________________________
+#__________________________________________________
 
 analyze_text_names("https://en.wikipedia.org/wiki/List_of_French_monarchs")
 
