@@ -40,7 +40,7 @@ def analyze_text_names(url1):
      print("\r\n all names: ("+ str(len(all_names_dict))+")\r\n" + str(all_names_dict))
      print("\r\n female names: ("+str(len(female_names_dict)) +") \r\n"  + str(female_names_dict))
 ```
-<center>
+
 ## Scraping from a Wiki page value
 
 ### Both English Values from Wikipedia:
@@ -51,7 +51,7 @@ def analyze_text_names(url1):
 <div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/main/wiki_value_fr.png" class="img-responsive" alt=""> </div>
 
 
-</center>
+
 ## Analyzing with NLP
 
 ```
