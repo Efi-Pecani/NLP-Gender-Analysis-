@@ -1,21 +1,21 @@
 ## Welcome to GitHub Pages
 
-# NLP-Gender-Analysis-
+# NLP-Gender-Analysis
 ## French vs Russian Monarchies comparison
 
-![picrus](https://github.com/efipaka/NLP-Gender-Analysis-/blob/main/nobility_rus.jpeg)
+![picrus](https://github.com/efipaka/NLP-Gender-Analysis-/blob/gh-pages/nobility_rus.jpeg)
 
 ## Most common names in French Monarchy:
 
-![graph2](https://github.com/efipaka/NLP-Gender-Analysis-/blob/main/french_monarchy.png)
+![graph2](https://github.com/efipaka/NLP-Gender-Analysis-/blob/gh-pages/french_monarchy.png)
 
 ## Most common names in Russian Monarchy:
 
-![graph3](https://github.com/efipaka/NLP-Gender-Analysis-/blob/main/russian_monarchy.png)
+![graph3](https://github.com/efipaka/NLP-Gender-Analysis-/blob/gh-pages/russian_monarchy.png)
 
 ## Male/Female Precentage comparison:
 
-![graph1](https://github.com/efipaka/NLP-Gender-Analysis-/blob/main/comparison_genders_monarchy.png)
+![graph1](https://github.com/efipaka/NLP-Gender-Analysis-/blob/gh-pages/comparison_genders_monarchy.png)
 
 ### Markdown
 
