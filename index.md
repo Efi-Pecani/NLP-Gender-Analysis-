@@ -3,7 +3,7 @@
 
 <center>
 <div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/gh-pages/sovurov_batlle.jpeg" class="img-responsive" alt=""> </div>
-
+</center>
 
 ### Defining our functions
 
@@ -40,7 +40,7 @@ def analyze_text_names(url1):
      print("\r\n all names: ("+ str(len(all_names_dict))+")\r\n" + str(all_names_dict))
      print("\r\n female names: ("+str(len(female_names_dict)) +") \r\n"  + str(female_names_dict))
 ```
-
+<center>
 ## Scraping from a Wiki page value
 
 ### Both English Values from Wikipedia:
@@ -51,7 +51,7 @@ def analyze_text_names(url1):
 <div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/main/wiki_value_fr.png" class="img-responsive" alt=""> </div>
 
 
-
+</center>
 ## Analyzing with NLP
 
 ```
@@ -107,7 +107,6 @@ analyze_text_names("https://en.wikipedia.org/wiki/List_of_French_monarchs")
 ['Adrien', 'April', 'Auguste', 'Catherine', 'Clovis', 'Cookie', 'France', 'Francis', 'George', 'Gita', 'Isabella', 'Jean', 'Joan', 'June', 'Mary', 'May', 'Philippe', 'Whitney']
 
 ```
-</center>
 	
 ## Most common names in French Monarchy:
 
