@@ -1,21 +1,21 @@
 ## Welcome to GitHub Pages
 
-# NLP-Gender-Analysis
-## French vs Russian Monarchies comparison
+## NLP-Gender-Analysis
+### French vs Russian Monarchies comparison
 
-![picrus](https://github.com/efipaka/NLP-Gender-Analysis-/blob/gh-pages/nobility_rus.jpeg)
+![picrus1](https://github.com/efipaka/NLP-Gender-Analysis-/blob/gh-pages/nobility_rus.jpeg)
 
-## Most common names in French Monarchy:
+### Most common names in French Monarchy:
 
-![graph2](https://github.com/efipaka/NLP-Gender-Analysis-/blob/gh-pages/french_monarchy.png)
+![graph3](https://github.com/efipaka/NLP-Gender-Analysis-/blob/gh-pages/french_monarchy.png)
 
-## Most common names in Russian Monarchy:
+### Most common names in Russian Monarchy:
 
-![graph3](https://github.com/efipaka/NLP-Gender-Analysis-/blob/gh-pages/russian_monarchy.png)
+![graph4](https://github.com/efipaka/NLP-Gender-Analysis-/blob/gh-pages/russian_monarchy.png)
 
-## Male/Female Precentage comparison:
+### Male/Female Precentage comparison:
 
-![graph1](https://github.com/efipaka/NLP-Gender-Analysis-/blob/gh-pages/comparison_genders_monarchy.png)
+![graph5](https://github.com/efipaka/NLP-Gender-Analysis-/blob/gh-pages/comparison_genders_monarchy.png)
 
 ### Markdown
 
@@ -56,11 +56,6 @@ analyze_text_names("https://en.wikipedia.org/wiki/List_of_French_monarchs")
  female names: (18) 
 ['Adrien', 'April', 'Auguste', 'Catherine', 'Clovis', 'Cookie', 'France', 'Francis', 'George', 'Gita', 'Isabella', 'Jean', 'Joan', 'June', 'Mary', 'May', 'Philippe', 'Whitney']
 
-
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
