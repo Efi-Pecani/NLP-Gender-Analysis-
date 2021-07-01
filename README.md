@@ -1,4 +1,4 @@
-# NLP-Gender-Analysis-
+# NLP-Gender-Analysis
 NLP comparison of genders mentioned in Wiki Pages
 
 French vs Russian Monarchies comparison
