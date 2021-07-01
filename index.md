@@ -3,7 +3,7 @@
 
 <center>
 <div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/main/nobility_rus.jpeg" class="img-responsive" alt=""> </div>
-</center>
+
 
 ### Defining our functions
 
@@ -107,16 +107,22 @@ analyze_text_names("https://en.wikipedia.org/wiki/List_of_French_monarchs")
 ['Adrien', 'April', 'Auguste', 'Catherine', 'Clovis', 'Cookie', 'France', 'Francis', 'George', 'Gita', 'Isabella', 'Jean', 'Joan', 'June', 'Mary', 'May', 'Philippe', 'Whitney']
 
 ```
-## The second largest heading
+</center>
+	
+## Most common names in French Monarchy:
 
-### Most common names in French Monarchy:
-
+<center>
 <div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/gh-pages/french_monarchy.png" class="img-responsive" alt=""> </div>
+</center>
 
 ### Most common names in Russian Monarchy:
 
+<center>
 <div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/gh-pages/russian_monarchy.png" class="img-responsive" alt=""> </div>
-
+</center>
+	
 ### Male/Female Precentage comparison:
 
+<center>
 <div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/gh-pages/comparison_genders_monarchy.png" class="img-responsive" alt=""> </div>
+</center>
