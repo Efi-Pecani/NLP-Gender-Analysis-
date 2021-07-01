@@ -15,9 +15,7 @@
 
 <div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/gh-pages/comparison_genders_monarchy.png" class="img-responsive" alt=""> </div>
 
-### Analyzing Functions
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Defining our functions
 
 ```
 def is_name(word):
@@ -53,11 +51,42 @@ def analyze_text_names(url1):
      print("\r\n female names: ("+str(len(female_names_dict)) +") \r\n"  + str(female_names_dict))
 ```
 
+## Scraping from a Wiki page value
 
-```markdown
-Syntax highlighted code block
+### Both English Values from Wikipedia:
 
-### NLP Analysis
+<div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/main/wiki_value_rus.png" class="img-responsive" alt=""> </div>
+### 1st
+
+<div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/main/wiki_value_fr.png" class="img-responsive" alt=""> </div>
+### 2nd
+
+
+## Analyzing with NLP
+
+```
+import nltk
+nltk.download('averaged_perceptron_tagger')
+nltk.download("names")
+nltk.download("genesis")
+nltk.download("inaugural")
+nltk.download("nps_chat")
+nltk.download("webtext")
+nltk.download("treebank")
+nltk.download('gutenberg')
+nltk.download('punkt')
+```
+```
+names=nltk.corpus.names.words()
+female_names=nltk.corpus.names.words('female.txt')
+male_names = nltk.corpus.names.words('male.txt')
+
+```
+### Getting our outputs
+
+
+```
+
 #_________________________
 
 analyze_text_names("https://en.wikipedia.org/wiki/List_of_Russian_monarchs")
@@ -88,3 +117,16 @@ analyze_text_names("https://en.wikipedia.org/wiki/List_of_French_monarchs")
 ['Adrien', 'April', 'Auguste', 'Catherine', 'Clovis', 'Cookie', 'France', 'Francis', 'George', 'Gita', 'Isabella', 'Jean', 'Joan', 'June', 'Mary', 'May', 'Philippe', 'Whitney']
 
 ```
+## The second largest heading
+
+### Most common names in French Monarchy:
+
+<div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/gh-pages/french_monarchy.png" class="img-responsive" alt=""> </div>
+
+### Most common names in Russian Monarchy:
+
+<div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/gh-pages/russian_monarchy.png" class="img-responsive" alt=""> </div>
+
+### Male/Female Precentage comparison:
+
+<div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/gh-pages/comparison_genders_monarchy.png" class="img-responsive" alt=""> </div>
