@@ -5,27 +5,59 @@
 
 ### Most common names in French Monarchy:
 
-
-![graph3](https://github.com/efipaka/NLP-Gender-Analysis-/blob/gh-pages/french_monarchy.png)
+<div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/gh-pages/french_monarchy.png" class="img-responsive" alt=""> </div>
 
 ### Most common names in Russian Monarchy:
 
-![graph4](https://github.com/efipaka/NLP-Gender-Analysis-/blob/gh-pages/russian_monarchy.png)
+<div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/gh-pages/russian_monarchy.png" class="img-responsive" alt=""> </div>
 
 ### Male/Female Precentage comparison:
 
-![graph5](https://github.com/efipaka/NLP-Gender-Analysis-/blob/gh-pages/comparison_genders_monarchy.png)
+<div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/gh-pages/comparison_genders_monarchy.png" class="img-responsive" alt=""> </div>
 
-### Markdown
+### Analyzing Functions
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+```
+def is_name(word):
+	return True if word in names else False
+
+def is_female_name(word):
+	return True if word in female_names else False
+
+def get_web_text(url1):
+     from bs4 import BeautifulSoup
+     from urllib import request
+     html1 = request.urlopen(url1).read().decode('utf8')
+     the_text= BeautifulSoup(html1, 'html.parser').get_text()
+     return the_text
+
+def top_names(number,text):
+    txt_names=[name for name in filter(is_name,text)]
+    names_freq=nltk.FreqDist(txt_names)
+    top_names={}
+    for name,count in names_freq.most_common(number):
+        top_names[name]=count
+    return top_names
+
+def analyze_text_names(url1):
+     web_text=nltk.word_tokenize(get_web_text(url1))
+     all_names=[name for name in filter(is_name,web_text)]
+     all_names_dict=sorted(set(all_names))
+     female_names_dict=[name for name in filter(is_female_name,all_names_dict)]
+    
+     print("\r\n url: " + url1)
+     print("\r\n percentage of female names: " + "{:.1%}".format(len(female_names_dict) / len(all_names_dict)))
+     print("\r\n all names: ("+ str(len(all_names_dict))+")\r\n" + str(all_names_dict))
+     print("\r\n female names: ("+str(len(female_names_dict)) +") \r\n"  + str(female_names_dict))
+```
+
 
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### NLP Analysis
 #_________________________
 
 analyze_text_names("https://en.wikipedia.org/wiki/List_of_Russian_monarchs")
@@ -56,13 +88,3 @@ analyze_text_names("https://en.wikipedia.org/wiki/List_of_French_monarchs")
 ['Adrien', 'April', 'Auguste', 'Catherine', 'Clovis', 'Cookie', 'France', 'Francis', 'George', 'Gita', 'Isabella', 'Jean', 'Joan', 'June', 'Mary', 'May', 'Philippe', 'Whitney']
 
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/efipaka/NLP-Gender-Analysis-/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
