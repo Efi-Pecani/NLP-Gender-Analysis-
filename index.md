@@ -69,7 +69,7 @@ nltk.download('punkt')
 ```
 
 ## Getting our outputs detecting & sorting 
-## Female names vs. Masculine names in each wiki value
+## Femenine names vs. Masculine names in each wiki value
 
 ```
 names=nltk.corpus.names.words()
@@ -81,8 +81,7 @@ male_names = nltk.corpus.names.words('male.txt')
 <img src="https://i2.wp.com/www.geriwalton.com/wp-content/uploads/2019/10/800px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project-wiki.jpg?resize=800%2C1334&ssl=1" alt="Napoleon" style="width:50%"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Catherine_II_by_F.Rokotov_after_Roslin_%28c.1770%2C_Hermitage%29.jpg" alt="Cathrine" style="width:50%">
 </center>
 
-## Displ our outputs & detecting Female names vs. Masculine names in each wiki value
-
+## Displaying our outputs
 
 ```
 	
@@ -114,7 +113,8 @@ analyze_text_names("https://en.wikipedia.org/wiki/List_of_French_monarchs")
 ['Adrien', 'April', 'Auguste', 'Catherine', 'Clovis', 'Cookie', 'France', 'Francis', 'George', 'Gita', 'Isabella', 'Jean', 'Joan', 'June', 'Mary', 'May', 'Philippe', 'Whitney']
 
 ```
-	
+## Visualizing the results
+
 ### Most common names in French Monarchy:
 
 <center>
@@ -127,7 +127,7 @@ analyze_text_names("https://en.wikipedia.org/wiki/List_of_French_monarchs")
 <div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/gh-pages/russian_monarchy.png" class="img-responsive" alt=""> </div>
 </center>
 	
-### Male/Female Precentage comparison:
+### Femenine/ Masculine Entities Precentage comparison:
 
 <center>
 <div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/gh-pages/comparison_genders_monarchy.png" class="img-responsive" alt=""> </div>
