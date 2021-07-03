@@ -91,7 +91,7 @@ male_names = nltk.corpus.names.words('male.txt')
 </style>
 
 <body>
-<img src="https://actuanewsmedia.files.wordpress.com/2020/10/kitbag-joaquin-phoenix-va-incarner-napoleon-chez-ridley-scott-1.jpg" alt="" style="width:90%" class="img-responsive"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Catherine_II_by_J.B.Lampi_%281780s%2C_Kunsthistorisches_Museum%29.jpg" alt="" style="width:50%" class="img-responsive">
+<img src="https://actuanewsmedia.files.wordpress.com/2020/10/kitbag-joaquin-phoenix-va-incarner-napoleon-chez-ridley-scott-1.jpg" alt="" width=225 height =225 class="img-responsive"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Catherine_II_by_J.B.Lampi_%281780s%2C_Kunsthistorisches_Museum%29.jpg" alt="" width=225 height =225 class="img-responsive">
 </body>
 
 ## Getting our outputs & detecting Female names vs. Masculine names in each wiki value
