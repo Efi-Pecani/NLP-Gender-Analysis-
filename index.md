@@ -1,5 +1,5 @@
-## NLP-Gender-Analysis
-### French vs Russian Monarchies comparison
+## Gender Entity Analysis Using NLTK
+### French vs Russian Monarchies Comparison
 
 <center>
 <div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/gh-pages/sovurov_batlle.jpeg" class="img-responsive" alt=""> </div>
@@ -72,7 +72,35 @@ female_names=nltk.corpus.names.words('female.txt')
 male_names = nltk.corpus.names.words('male.txt')
 
 ```
-## Getting our outputs
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+<div class="row">
+  <div class="column">
+    <img src="https://actuanewsmedia.files.wordpress.com/2020/10/kitbag-joaquin-phoenix-va-incarner-napoleon-chez-ridley-scott-1.jpg" alt="" style="width:50%" class="img-responsive">
+  </div>
+  <div class="column">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Catherine_II_by_J.B.Lampi_%281780s%2C_Kunsthistorisches_Museum%29.jpg" alt="" style="width:50%" class="img-responsive">
+  </div>
+</div>
+
+
+## Getting our outputs & detecting Female names vs. Masculine names in each wiki value
 
 
 ```
@@ -108,7 +136,7 @@ analyze_text_names("https://en.wikipedia.org/wiki/List_of_French_monarchs")
 
 ```
 	
-## Most common names in French Monarchy:
+### Most common names in French Monarchy:
 
 <center>
 <div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/gh-pages/french_monarchy.png" class="img-responsive" alt=""> </div>
