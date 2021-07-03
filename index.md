@@ -68,24 +68,7 @@ nltk.download('punkt')
 
 ```
 
-<center>
-<img src="https://i2.wp.com/www.geriwalton.com/wp-content/uploads/2019/10/800px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project-wiki.jpg?resize=800%2C1334&ssl=1" alt="Napoleon" style="width:40%"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Catherine_II_by_J.B.Lampi_%281780s%2C_Kunsthistorisches_Museum%29.jpg" alt="Cathrine" style="width:55%">
-</center>
-
-.column {
-  float: left;
-  width: 50%;
-  padding: 5px;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-
-## Getting our outputs & detecting 
+## Getting our outputs detecting & sorting 
 ## Female names vs. Masculine names in each wiki value
 
 ```
@@ -94,7 +77,9 @@ female_names=nltk.corpus.names.words('female.txt')
 male_names = nltk.corpus.names.words('male.txt')
 
 ```
-
+<center>
+<img src="https://i2.wp.com/www.geriwalton.com/wp-content/uploads/2019/10/800px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project-wiki.jpg?resize=800%2C1334&ssl=1" alt="Napoleon" style="width:40%"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Catherine_II_by_F.Rokotov_after_Roslin_%28c.1770%2C_Hermitage%29.jpg" alt="Cathrine" style="width:55%">
+</center>
 
 ## Displ our outputs & detecting Female names vs. Masculine names in each wiki value
 
