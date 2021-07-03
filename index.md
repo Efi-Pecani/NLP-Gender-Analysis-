@@ -5,6 +5,23 @@
 <div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/gh-pages/sovurov_batlle.jpeg" class="img-responsive" alt=""> </div>
 </center>
 
+## Importing
+
+
+```
+import nltk
+nltk.download('averaged_perceptron_tagger')
+nltk.download("names")
+nltk.download("genesis")
+nltk.download("inaugural")
+nltk.download("nps_chat")
+nltk.download("webtext")
+nltk.download("treebank")
+nltk.download('gutenberg')
+nltk.download('punkt')
+
+```
+
 ### Defining our functions
 
 ```
@@ -28,17 +45,6 @@ def top_names(number,text):
     for name,count in names_freq.most_common(number):
         top_names[name]=count
     return top_names
-
-def analyze_text_names(url1):
-     web_text=nltk.word_tokenize(get_web_text(url1))
-     all_names=[name for name in filter(is_name,web_text)]
-     all_names_dict=sorted(set(all_names))
-     female_names_dict=[name for name in filter(is_female_name,all_names_dict)]
-    
-     print("\r\n url: " + url1)
-     print("\r\n percentage of female names: " + "{:.1%}".format(len(female_names_dict) / len(all_names_dict)))
-     print("\r\n all names: ("+ str(len(all_names_dict))+")\r\n" + str(all_names_dict))
-     print("\r\n female names: ("+str(len(female_names_dict)) +") \r\n"  + str(female_names_dict))
 ```
 
 ## Scraping from the web with BeautifulSoup
@@ -55,28 +61,30 @@ def analyze_text_names(url1):
 ## Analyzing with 'names' corpus
 
 ```
-import nltk
-nltk.download('averaged_perceptron_tagger')
-nltk.download("names")
-nltk.download("genesis")
-nltk.download("inaugural")
-nltk.download("nps_chat")
-nltk.download("webtext")
-nltk.download("treebank")
-nltk.download('gutenberg')
-nltk.download('punkt')
 
-```
-
-## Getting our outputs detecting & sorting 
-## Femenine names vs. Masculine names in each wiki value
-
-```
 names=nltk.corpus.names.words()
 female_names=nltk.corpus.names.words('female.txt')
 male_names = nltk.corpus.names.words('male.txt')
 
 ```
+
+## Getting our outputs detecting & sorting
+
+```
+def analyze_text_names(url1):
+     web_text=nltk.word_tokenize(get_web_text(url1))
+     all_names=[name for name in filter(is_name,web_text)]
+     all_names_dict=sorted(set(all_names))
+     female_names_dict=[name for name in filter(is_female_name,all_names_dict)]
+    
+     print("\r\n url: " + url1)
+     print("\r\n percentage of female names: " + "{:.1%}".format(len(female_names_dict) / len(all_names_dict)))
+     print("\r\n all names: ("+ str(len(all_names_dict))+")\r\n" + str(all_names_dict))
+     print("\r\n female names: ("+str(len(female_names_dict)) +") \r\n"  + str(female_names_dict))
+## Femenine names vs. Masculine names in each wiki value
+
+```
+
 <center>
 <img src="https://i2.wp.com/www.geriwalton.com/wp-content/uploads/2019/10/800px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project-wiki.jpg?resize=800%2C1334&ssl=1" alt="Napoleon" style="width:40%"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Catherine_II_by_F.Rokotov_after_Roslin_%28c.1770%2C_Hermitage%29.jpg" alt="Cathrine" style="width:50%">
 </center>
