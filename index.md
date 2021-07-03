@@ -69,7 +69,7 @@ nltk.download('punkt')
 ```
 
 <center></center>
-<img src="https://i2.wp.com/www.geriwalton.com/wp-content/uploads/2019/10/800px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project-wiki.jpg?resize=800%2C1334&ssl=1" alt="Napoleon" style="width:40%"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Catherine_II_by_J.B.Lampi_%281780s%2C_Kunsthistorisches_Museum%29.jpg" alt="Cathrine" style="width:50%">
+<img src="https://i2.wp.com/www.geriwalton.com/wp-content/uploads/2019/10/800px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project-wiki.jpg?resize=800%2C1334&ssl=1" alt="Napoleon" style="width:40%"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Catherine_II_by_J.B.Lampi_%281780s%2C_Kunsthistorisches_Museum%29.jpg" alt="Cathrine" style="width:60%">
 
 
 .column {
