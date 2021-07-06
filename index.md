@@ -1,5 +1,5 @@
 ## Gender Entity Analysis Using NLTK
-### French vs Russian Monarchies Comparison
+### Russian vs French Monarchies Comparison
 <center>
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Lesser_CoA_of_the_empire_of_Russia.svg" class="img-responsive" alt="rus_symb" style="width:40%">
 <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Grand_Royal_Coat_of_Arms_of_France.svg" class="img-responsive" alt="rus_symb" style="width:40%">
@@ -143,7 +143,8 @@ analyze_text_names("https://en.wikipedia.org/wiki/List_of_French_monarchs")
 <div><img src="https://upload.wikimedia.org/wikipedia/commons/6/62/%D0%A6%D0%B0%D1%80%D0%B8_%D0%B8_%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D0%B8_%D0%B7%D0%B5%D0%BC%D0%BB%D0%B8_%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B9_%D0%BE%D1%82_%D0%A0%D1%8E%D1%80%D0%B8%D0%BA%D0%B0_%D0%B4%D0%BE_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%B0_III.%28%D1%85%D1%80%D0%BE%D0%BC%D0%BB%D0%B8%D1%82.%D0%90%D0%B1%D1%80%D0%B0%D0%BC%D0%BE%D0%B2%D0%B0%29_%28p%291886%D0%B3_%D0%93%D0%98%D0%9C_e1t3.jpg" class="img-responsive" alt="family_tree" style="width:50%"> </div>
 </center>
 
-### Femenine/ Masculine Entities Precentage comparison:
+
+### Proportion of Femenine/ Masculine Entities Mentioned in values compared:
 
 <center>
 <div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/gh-pages/comparison_genders_monarchy.png" class="img-responsive" alt=""> </div>
