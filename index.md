@@ -96,7 +96,9 @@ def analyze_text_names(url1):
 ## Displaying our outputs
 
 ```
-	
+#__________________________________________________
+
+
 analyze_text_names("https://en.wikipedia.org/wiki/List_of_Russian_monarchs")
 
  url: https://en.wikipedia.org/wiki/List_of_Russian_monarchs
