@@ -6,7 +6,7 @@
 </center>
 
 <center>
-<div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/gh-pages/sovurov_batlle.jpeg" class="img-responsive" alt=""> </div>
+<div><img src="https://cdni.rbth.com/rbthmedia/images/2017.10/article/59dde6c215e9f908264f4ecc.png" class="img-responsive" alt=""> </div>
 </center>
 
 ## Importing
