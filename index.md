@@ -11,8 +11,6 @@
 
 ## Importing
 
-https://github.com/efipaka/NLP-Gender-Analysis-/blob/34c8feee1cd9029203abb4440d5bb2b4b4909b6e/nlp_sol.py#L13-L22
-
 
 ```python
 import nltk
