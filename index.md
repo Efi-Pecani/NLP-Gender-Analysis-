@@ -105,8 +105,6 @@ analyze_text_names("https://en.wikipedia.org/wiki/List_of_Russian_monarchs")
 
  url: https://en.wikipedia.org/wiki/List_of_Russian_monarchs
 
- percentage of female names: 46.7%
-
  all names: (60)
 ['Alexander', 'Alexandra', 'Alexis', 'Alta', 'Anastasia', 'Andrei', 'Andrew', 'Andrey', 'Anna', 'Anne', 'April', 'August', 'Boris', 'Canada', 'Catherine', 'Christina', 'Cookie', 'Curtis', 'Cyril', 'Daniel', 'Dimitri', 'Duke', 'Elena', 'Elizabeth', 'France', 'George', 'Glenn', 'Harvard', 'Igor', 'Ivan', 'June', 'Karl', 'King', 'Konstantin', 'Lucia', 'Maria', 'May', 'Maya', 'Michael', 'Mikhail', 'Natalia', 'Natalya', 'Nicholas', 'Oleg', 'Olga', 'Paul', 'Peter', 'Prince', 'Royal', 'Saul', 'See', 'Simeon', 'Simon', 'Sophia', 'Vasili', 'Vasily', 'Vincent', 'Vladimir', 'Xenia', 'Yuri']
 
@@ -114,13 +112,15 @@ analyze_text_names("https://en.wikipedia.org/wiki/List_of_Russian_monarchs")
 ['Alexandra', 'Alexis', 'Alta', 'Anastasia', 'Andrei', 'Anna', 'Anne', 'April', 'Canada', 'Catherine', 'Christina', 'Cookie', 'Daniel', 'Elena', 'Elizabeth', 'France', 'George', 'Glenn', 'June', 'Lucia', 'Maria', 'May', 'Maya', 'Natalia', 'Natalya', 'Olga', 'Sophia', 'Xenia']
 
 
+ percentage of female names: 46.7 %
+ 
+
 #__________________________________________________
 
 analyze_text_names("https://en.wikipedia.org/wiki/List_of_French_monarchs")
 
  url: https://en.wikipedia.org/wiki/List_of_French_monarchs
 
- percentage of female names: 34.0%
 
  all names: (53)
 ['Adrien', 'Antoine', 'April', 'August', 'Auguste', 'Augustus', 'Brewer', 'Catherine', 'Charles', 'Clovis', 'Cookie', 'David', 'Duke', 'Edward', 'France', 'Francis', 'French', 'George', 'Gita', 'Henri', 'Henry', 'Hercule', 'Hugh', 'Isabella', 'Jean', 'Joan', 'John', 'June', 'King', 'Lion', 'Louis', 'Magnus', 'Mary', 'May', 'Michael', 'Napoleon', 'Pascal', 'Philip', 'Philippe', 'Prince', 'Raoul', 'Rex', 'Richard', 'Robert', 'Rudolph', 'See', 'Son', 'Sterling', 'Temple', 'Walter', 'Webster', 'West', 'Whitney']
@@ -128,6 +128,8 @@ analyze_text_names("https://en.wikipedia.org/wiki/List_of_French_monarchs")
  female names: (18) 
 ['Adrien', 'April', 'Auguste', 'Catherine', 'Clovis', 'Cookie', 'France', 'Francis', 'George', 'Gita', 'Isabella', 'Jean', 'Joan', 'June', 'Mary', 'May', 'Philippe', 'Whitney']
 
+ percentage of female names: 34.0 %
+ 
 ```
 ## Visualizing the results
 
