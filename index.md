@@ -30,7 +30,7 @@ nltk.download('punkt')
 
 ### Defining our functions
 
-```
+```python
 def is_name(word):
 	return True if word in names else False
 
@@ -66,7 +66,7 @@ def top_names(number,text):
 
 ## Analyzing with 'names' corpus
 
-```
+```python
 
 names=nltk.corpus.names.words()
 female_names=nltk.corpus.names.words('female.txt')
@@ -76,7 +76,8 @@ male_names = nltk.corpus.names.words('male.txt')
 
 ## Getting our outputs detecting & sorting
 
-```
+```python
+
 def analyze_text_names(url1):
      web_text=nltk.word_tokenize(get_web_text(url1))
      all_names=[name for name in filter(is_name,web_text)]
@@ -97,7 +98,8 @@ def analyze_text_names(url1):
 
 ## Displaying our outputs
 
-```
+```python
+
 #__________________________________________________
 
 
