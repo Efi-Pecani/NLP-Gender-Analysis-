@@ -86,9 +86,9 @@ def analyze_text_names(url1):
      print("\r\n percentage of female names: " + "{:.1%}".format(len(female_names_dict) / len(all_names_dict)))
      print("\r\n all names: ("+ str(len(all_names_dict))+")\r\n" + str(all_names_dict))
      print("\r\n female names: ("+str(len(female_names_dict)) +") \r\n"  + str(female_names_dict))
-## Femenine names vs. Masculine names in each wiki value
 
 ```
+## Femenine names vs. Masculine names in each wiki value
 
 <center>
 <img src="https://i2.wp.com/www.geriwalton.com/wp-content/uploads/2019/10/800px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project-wiki.jpg?resize=800%2C1334&ssl=1" alt="Napoleon" style="width:40%"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Catherine_II_by_F.Rokotov_after_Roslin_%28c.1770%2C_Hermitage%29.jpg" alt="Cathrine" style="width:50%">
