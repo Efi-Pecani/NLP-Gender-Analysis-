@@ -160,3 +160,13 @@ analyze_text_names("https://en.wikipedia.org/wiki/List_of_French_monarchs")
 <div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/gh-pages/5d55929585600a41213a9b52.jpeg" class="img-responsive" alt=""> </div>
 </center>
 
+<center>
+<div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/gh-pages/pie_chart_nicks.png" class="img-responsive" alt=""> </div>
+</center>
+
+<center>
+<div><img src="https://raw.githubusercontent.com/efipaka/NLP-Gender-Analysis-/gh-pages/mentions_louis.png" class="img-responsive" alt=""> </div>
+</center>
+
+
+
