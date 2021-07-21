@@ -3,7 +3,9 @@
 
 ## French vs Russian Monarchies comparison
 
-[gpage](https://efi-pecani.github.io/NLP-Gender-Analysis-/)
+[arbitrary case-insensitive reference text]: https://efi-pecani.github.io/NLP-Gender-Analysis-/
+
+
 
 ![picrus](https://github.com/efipaka/NLP-Gender-Analysis-/blob/main/nobility_rus.jpeg)
 
