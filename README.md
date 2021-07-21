@@ -3,6 +3,8 @@
 
 ## French vs Russian Monarchies comparison
 
+[gpage]https://efi-pecani.github.io/NLP-Gender-Analysis-/
+
 ![picrus](https://github.com/efipaka/NLP-Gender-Analysis-/blob/main/nobility_rus.jpeg)
 
 ![picwiki2](https://github.com/efipaka/NLP-Gender-Analysis-/blob/main/wiki_value_rus.png)
@@ -20,3 +22,4 @@
 ## Male/Female Precentage comparison:
 
 ![graph1](https://github.com/efipaka/NLP-Gender-Analysis-/blob/main/comparison_genders_monarchy.png)
+
